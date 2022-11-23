@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Programador MacGyver.
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: rigth # or left
+  image: bbustamante.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p class="text-center">Hello world!</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Soy un apasionado de la **informática** y las nuevas tecnologías en general _(lo que viene conociéndose como un geek)_, una de esas personas que sienten la imperiosa necesidad de probar y conocer todas las novedades de las que escucha hablar. Empecé en este mundillo allá por el año 1989 _(apenas contaba con tres años)_ cuando mi padre me dejó usar su **Commodore 64** _(aún conservo ese tesoro)_.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Con el tiempo convertí la **programación** en mi especialidad profesional. No sólo soy programador de formación, sino también de fabricación; la lógica de la programación es algo que ya traía implementado de serie. Realicé mi primera Web en el año 1994, un horror de gifs, marquesinas y colores llamativos creado con **FrontPage**... Por aquel entonces ni siquiera me había planteado la posibilidad de dedicarme profesionalmente a la creación de páginas Web; pero, puede que por casualidad, mi proyección profesional me ha llevado por este camino y con el paso de los años he descubierto que no sólo me apasiona, además soy un enamorado de este mundillo.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+A mucha gente le sorprende la combinación **informático/actor** porque no tienen nada que ver, pero para mí ha sido lo más normal del mundo. Si bien la faceta del informático es mi perfil principal, complemento mi personalidad con una afición por el teatro y el cine que he llevado a términos semiprofesionales. Además, también he hecho mis pinitos en el **mundo de la escritura**, con algún relato publicado y una novela autoeditada.
+
+Esta combinación de programador, creativo y apasionado de los juegos de mesa _(dato extra)_ es probablemente lo que me llevó a montar con mi pareja una **sala de escape**, El Sótano Juegos, donde plasmé un poquito de cada una de mis facetas personales y, además, me hizo aprender muchas cosas nuevas.
+
+Por lo demás, soy una persona extrovertida y no tengo ninguna dificultad para hablar, así que, si de mi presentación pudiera surgir alguna duda, estaré encantado de atenderla.
