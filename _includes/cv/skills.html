@@ -1,0 +1,21 @@
+<ul class="list-inline">
+    {% for content in entry.contents %}
+        <li class="list-inline-item">
+            <img src="/assets/img/cv/{{ entry.subtype }}/{{ content.value }}.png" class="img-fluid" style="max-height:25px;width:auto;">
+            {{ content.skill }}
+        </li>
+    {% endfor %}
+    {% for content in entry.extracontents %}
+        <li class="list-inline-item collapse {{ entry.class }}">
+            <img src="/assets/img/cv/{{ entry.subtype }}/{{ content.value }}.png" class="img-fluid" style="max-height:25px;width:auto;">
+            {{ content.skill }}
+        </li>
+    {% endfor %}
+    {% if entry.extracontents %}
+        <li class="list-inline-item">
+            <button type="button" class="btn btn-dark btn-sm collapse show {{ entry.class }}" data-toggle="collapse" data-target=".{{ entry.class }}">
+                <i class="fas fa-plus-square"></i> {{ entry.extracontentstext }}
+            </button>
+        </li>
+    {% endif %}
+</ul>

@@ -19,10 +19,16 @@ layout: default
                     {% include cv/list.html %}
                   {% elsif entry.type == "map" %}
                     {% include cv/map.html %}
+                  {% elsif entry.type == "icon" %}
+                    {% include cv/icon.html %}
                   {% elsif entry.type == "nested_list" %}
                     {% include cv/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
                    {% include cv/time_table.html %}
+                  {% elsif entry.type == "work_table" %}
+                    {% include cv/work_table.html %}
+                  {% elsif entry.type == "skills" %}
+                    {% include cv/skills.html %}
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}

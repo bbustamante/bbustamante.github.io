@@ -1,0 +1,12 @@
+<div class="table-responsive">
+  <table class="table table-sm table-borderless" style="table-layout: fixed;">
+    <tr>
+      {% for content in entry.contents %}
+        <td class="p-1 pr-2 text-center">
+          <p><i class="{{ content.icon }} fa-{{ entry.size }}x"></i></p>
+          <p class="font-weight-light text">{{ content.value }}</p>
+        </td>
+      {% endfor %}
+    </tr>
+  </table>
+</div>

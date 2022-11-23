@@ -1,97 +1,239 @@
-- title: General Information
-  type: map
+- title: Perfil
+  type: icon
+  size: 3
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - icon: fas fa-brain
+      value: Lógica
+    - icon: fas fa-hat-wizard
+      value: Creatividad
+    - icon: fas fa-cogs
+      value: Todoterreno
 
-- title: Education
+- title: Trabajos
+  type: work_table
+  class: works
+  contents:
+    - title: Backend Dev
+      institution: Certiorem S.A.
+      year: 2018 - ¿?
+      description:
+        - Java
+        - SCRUM
+        - SpringBoot
+        - Jira
+        - Jenkins
+        - Microservicios
+        - Backbone
+        - Eureka
+
+    - title: Backend Dev
+      institution: Gurenet Teknologia S.L.
+      year: 2016-2018
+      description:
+        - PHP
+        - JavaScript
+        - back-end
+        - Análisis
+        - AsistenciaTécnica
+        - Mantenimiento
+
+    - title: FullStack Web Dev
+      institution: Dinof, S.A.
+      year: 2015-2016
+      description:
+        - web
+        - wordpress
+        - PHP
+        - tutor
+        - photoshop
+        - SoporteTécnico
+        - AdministraciónDeSistemas
+
+    - title: CTO
+      institution: Proyecto The Open Shoes
+      year: 2013-2018
+      description:
+        - startup
+        - web
+        - DIY
+        - PHP
+        - impresión3D
+        - SEO
+        - photoshop
+        - CommunityManager
+        - marketing
+
+  extracontentstext: Ver mas
+  extracontents:
+    - title: Programador JAVA/JEE
+      institution: Ipartek Formación
+      year: 2014
+      description:
+        - web
+        - front-end 
+        - back-end
+        - json
+        - java
+        - html
+        - css
+        - jQuery
+        - eclipse
+        - maven
+        - scrum
+
+    - title: Informático / Adtvo.
+      institution: RDC Consultoría
+      year: 2011-2012
+      description:
+        - access
+        - excel
+        - SoporteTécnico
+        - redes
+
+    - title: Informático
+      institution: Ulibarri Euskaltegia
+      year: 2009-2011
+      description:
+        - web
+        - wordpress
+        - PHP
+        - redes
+        - CommunityManager
+        - SoporteTécnico
+
+    - title: Informático
+      institution: Viajes Años Luz
+      year: 2007-2009
+      description:
+        - SoporteTécnico
+        - GestiónDeProyectos
+        - EdciónDeVídeo
+        - redes
+        - youtube
+
+    - title: Programador en prácticas
+      institution: Bilbomática
+      year: 2005-2007
+      description:
+        - web
+        - ASP
+
+- title: Programación
+  type: skills
+  subtype: wifi
+  class: devskills
+  contents:
+    - skill: Java
+      value: 3
+    - skill: SQL
+      value: 3
+    - skill: PL/SQL
+      value: 2
+    - skill: PHP
+      value: 3
+    - skill: CSS3
+      value: 3
+    - skill: jQuery
+      value: 3
+    - skill: Python
+      value: 1
+    - skill: C++
+      value: 2
+    - skill: ASP
+      value: 1
+    - skill: AngularJS
+      value: 1
+
+  extracontentstext: 
+  extracontents:
+    - skill: HTML
+      value: 3
+    - skill: Android
+      value: 2
+    - skill: MySQL
+      value: 3
+    - skill: Oracle SQL
+      value: 3
+    - skill: PostgreSQL
+      value: 3
+    - skill: Visual Basic
+      value: 2
+    - skill: JavaScript
+      value: 3
+    - skill: AJAX
+      value: 3
+    - skill: Flash
+      value: 1
+
+- title: Idiomas
+  type: skills
+  subtype: flag
+  contents:
+    - skill: Castellano
+      value: es
+    - skill: Euskera
+      value: eu
+    - skill: Inglés
+      value: en
+
+- title: Formación
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Técnico Superior en Desarrollo de Aplicaciones Informáticas
+      institution: Instituto Ategorri-Tartanga
+      year: 2005-2007
 
-- title: Experience
+    - title: Máster en Diseño y Desarrollo de Videojuegos
+      institution: Universidad Europea de Madrid
+      year: 2007-2008
+
+    - title: Técnico Superior en Administración de Sistemas Informáticos
+      institution: Instituto Saturnino de la Peña
+      year: 2009-2011
+
+- title: Cursos
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Programación Java/JEE
+      year: 250 horas
+
+    - title: Desarrollo de Aplicaciones Android
+      year: 142 horas
+
+    - title: Marketing Online - Especialización en buscadores
+      year: 15 horas
+
+- title: Proyectos
+  type: work_table
+  contents:
+    - title: El Sótano Juegos
+      institution: Co-creador y GM de los Juegos<ul><li>La Locura de Alice <i>(Física)</i>.</li><li>El Legado del Escapista <i>(OnLine)</i>.</li></ul>
+      year: 2017-2022
+      logos:
+        - elsotano.png
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - arduino
+        - electrónica
+        - diseño
+        - ResoluciónDeProblemas
+        - TratoAlCliente
+        - Marketing
+        - RRSS
+        - GestiónDeEquipo
+        - ricolaje
+        - decoración
+        - impresión3D
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: One Microsoft
+      institution: Asesoramiento a Microsoft a través de la fundación el mundo del superdotado.
+      year: 2014
+      logos:
+        - Microsoft.png
+        - eMS.png
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Proyecto Pop Up Bilbao
+      institution: Desarrollador de una campaña onLine para el Athletic Club de Bilbao a través de Google Actívate.
+      year: 2014
+      logos:
+        - Google.png
+        - Athletic.png
