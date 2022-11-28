@@ -205,6 +205,7 @@
 
 - title: Proyectos
   type: work_table
+  class: projects
   contents:
     - title: El Sótano Juegos
       institution: Co-creador y GM de los Juegos<ul><li>La Locura de Alice <i>(Física)</i>.</li><li>El Legado del Escapista <i>(OnLine)</i>.</li></ul>
@@ -224,6 +225,8 @@
         - decoración
         - impresión3D
 
+  extracontentstext: Otros proyectos
+  extracontents:
     - title: One Microsoft
       institution: Asesoramiento a Microsoft a través de la fundación el mundo del superdotado.
       year: 2014
