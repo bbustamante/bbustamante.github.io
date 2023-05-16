@@ -13,9 +13,20 @@
   type: work_table
   class: works
   contents:
+    - title: Software engineer
+      institution: Nymiz S.L.
+      year: 2023 - ¿?
+      description:
+        - Java
+        - Python
+        - Angular
+        - SCRUM
+        - SpringBoot
+        - Taiga
+
     - title: Backend Dev
       institution: Certiorem S.A.
-      year: 2018 - ¿?
+      year: 2018 - 2023
       description:
         - Java
         - SCRUM
